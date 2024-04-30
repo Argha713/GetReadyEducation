@@ -122,6 +122,111 @@ nav .fa{
     }
 }
 
+
+
+.promo-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.single-promo span{
+    font-size: 70px;
+    line-height: inherit;
+    margin-bottom: 20px;
+	
+}
+.single-promo-1{
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 1.5rem !important;
+}
+.single-promo-1 span{
+    font-size: 35px;
+    background-image: url("../img/promo-icon-bg.svg");
+    background-size: 150px;
+    padding: 35px;
+    background-repeat: no-repeat;
+    background-position: 45% 20%;
+}
+.single-promo img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.single-promo .img-full-box{
+    width: auto !important;
+    height: auto !important;
+}
+.single-promo-hover{
+    transition: all .2s ease-out;
+    will-change: transform;
+}
+.single-promo-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(31,45,61,.125)!important;
+}
+
+/*promo section new style*/
+
+.single-promo-card{
+    transition: all .2s ease;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.card.single-promo-card{
+    border: 1px solid #eff2f7;
+    border-radius: 1rem;
+}
+.card.single-promo-card:hover{
+    background: #6730e3;
+    color: #ffffff;
+}
+.card.single-promo-card:hover  span, .card.single-promo-card:hover h3, .card.single-promo-card:hover h5, .card.single-promo-card:hover p.text-muted{
+    color: #ffffff !important;
+}
+
+.single-promo-card .card-body{
+    padding: 1.5rem;
+}
+
+/*promo section new style2*/
+
+.single-promo-card2{
+    transition: all .2s ease;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+	background-color: #6730e3;
+     color: #ffffff;
+}
+.card.single-promo-card2{
+    border: 1px solid #eff2f7;
+    border-radius: 1rem;
+	background-color: #6730e3;
+    color: #ffffff;
+}
+.card.single-promo-card2 h5 {    
+    color: #ffffff;
+}
+
+.card.single-promo-card2:hover{
+    background: #6730e3;
+    color: #ffffff;
+}
+.card.single-promo-card2:hover  span, .card.single-promo-card:hover h3, .card.single-promo-card:hover h5, .card.single-promo-card:hover p.text-muted{
+    color: #ffffff !important;
+}
+
+.single-promo-card2 .card-body{
+    padding: 1.5rem;
+	
+}
+
+
+
+
+
+
+
+
+
 /*---------- course --------*/
 
 .course{
