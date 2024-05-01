@@ -47,12 +47,12 @@
                            <p class="lead mt-1 text-center" style="font-weight: 600;">
                         Get Ready focuses on identifying learning gaps, provides detailed 
                         learning and skill analysis and suggests personalised remedial.
-                    </p>
+                        </p>
                         </div>
                     </div>
                 </div>
                 <div class="row equal">
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-md-4 col-lg-4 promo-card" onclick="redirectToPage('blog.html')" target="_blank">
                         <div class="single-promo-hover single-promo-1 text-center white-bg p-5 h-100">
                             <div class="mb-3">
                                <img src="./images/index/current-gap.png" style="width: 128px;" />
@@ -62,8 +62,8 @@
                                 affecting current learning goals of the student.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <div class="single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
+                    <div class="col-md-4 col-lg-4 promo-card">
+                        <div class="single-promo-hover single-promo-1 text-center white-bg p-5 h-100">
                             <div class="mb-3">
                                  <img src="./images/index/root-gap.png" style="width: 128px;" />
                             </div>
@@ -72,8 +72,8 @@
                                 is impacting their learning outcomes in the current student.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <div class="single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
+                    <div class="col-md-4 col-lg-4 promo-card">
+                        <div class="single-promo-hover single-promo-1 text-center white-bg p-5 h-100">
                             <div class="mb-3">
                                 <img src="./images/index/skill-gap.png" style="width: 128px;" />
                             </div>
@@ -247,6 +247,9 @@
     function hideMenu() {
         navLinks.style.right = "-200px";
     }
+    function redirectToPage(pageUrl) {
+            window.open(pageUrl, '_blank');
+        }
 </script> 
     
 </body>

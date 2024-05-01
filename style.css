@@ -130,6 +130,9 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+.promo-card{
+    padding-top: 20px;
+}
 .single-promo span{
     font-size: 70px;
     line-height: inherit;
